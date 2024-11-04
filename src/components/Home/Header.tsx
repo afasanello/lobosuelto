@@ -9,7 +9,7 @@ function Header() {
     >
       <img
         src={PhotoTransparent} 
-        alt="A suited man"
+        alt="A man in a suit"
         className="absolute h-full max-h-56 z-10 top-0 bottom-0 left-0 rounded-full p-1"
       />
       <img
