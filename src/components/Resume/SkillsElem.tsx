@@ -13,7 +13,7 @@ function SkillsElem(props: SkillProps) {
     <div className="relative block w-16 m-7">
       <img
         className="w-16 mx-auto"
-        src={`/technologies/${image}.png`}
+        src={`./technologies/${image}.png`}
         alt={`${technology}`}
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
