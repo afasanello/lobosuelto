@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/lobosuelto">
+      <BrowserRouter>
         <ScrollToTop />
         <AnimatedRoutes />
       </BrowserRouter>
