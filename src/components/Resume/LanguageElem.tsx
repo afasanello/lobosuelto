@@ -13,7 +13,7 @@ function LanguageElem(props: LanguageProps) {
     <div className="relative block w-16 m-7">
       <img 
         className="rounded-full w-16 mx-auto"
-        src={`./flags/${flag}.png`}
+        src={flag}
         alt={`${language} - ${level}`}
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}

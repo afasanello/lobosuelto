@@ -1,10 +1,12 @@
+import ResumePhoto from "/resume/ResumePhoto.png"
+
 function Photo() {
   return (
     <article
       className="block"
     >
       <img
-        src="./ResumePhoto.png"
+        src={ResumePhoto}
         className="w-full max-w-96 m-auto rounded-xl"
         alt="Alejandro Fasanello"
       /> <br />
